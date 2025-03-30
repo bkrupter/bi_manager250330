@@ -1,199 +1,283 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>제28차 창보매 합격플랜 세미나</title>
-<script src="https://cdn.tailwindcss.com/3.4.16"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
-<script>
-tailwind.config = {
-theme: {
-extend: {
-colors: {
-primary: '#4338ca',
-secondary: '#f472b6'
-},
-borderRadius: {
-'none': '0px',
-'sm': '4px',
-DEFAULT: '8px',
-'md': '12px',
-'lg': '16px',
-'xl': '20px',
-'2xl': '24px',
-'3xl': '32px',
-'full': '9999px',
-'button': '8px'
-}
-}
-}
-}
-</script>
-<style>
-:where([class^="ri-"])::before { content: "\f3c2"; }
-.gradient-bg {
-background: linear-gradient(135deg, #4338ca 0%, #312e81 100%);
-}
-.neon-border {
-box-shadow: 0 0 15px rgba(244, 114, 182, 0.5);
-}
-</style>
-</head>
-<body class="min-h-screen bg-gray-50">
-<nav class="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="flex justify-between h-16">
-<div class="flex items-center">
-<a href="#"><img src="https://static.readdy.ai/image/125e6ce6350ab7717e70267fb3bb8303/f5f93f987e91f8d9fa04e0e19f912ee3.png" alt="창업보육매니저양성센터 로고" class="h-10"></a>
-</div>
-<div class="flex items-center space-x-4">
-<a href="#" class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium">홈</a>
-<a href="#" class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium">소개</a>
-<a href="#" class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium">문의하기</a>
-</div>
-</div>
-</div>
-</nav>
-<main>
-<section class="gradient-bg pt-24 pb-16 relative overflow-hidden">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-<div class="text-white">
-<p class="text-secondary font-medium mb-4">창보매 합격을 위한 첫걸음</p>
-<h1 class="text-4xl sm:text-5xl font-bold mb-6">제28차 창보매<br/>합격플랜 세미나</h1>
-<p class="text-gray-200 mb-8">창업보육매니저 자격시험 준비를 위한 특별한 기회! 전문가와 함께하는 1시간으로 합격의 길을 열어보세요.</p>
-<a href="https://forms.gle/Wwh7nuace4onqyne7" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-secondary text-white font-medium !rounded-button hover:bg-opacity-90 transition cursor-pointer">
-지금 신청하기
-<i class="ri-arrow-right-line ml-2"></i>
-</a>
-</div>
-<div class="relative">
-<div class="aspect-w-4 aspect-h-3 rounded-full neon-border overflow-hidden">
-<img src="https://static.readdy.ai/image/125e6ce6350ab7717e70267fb3bb8303/4fb5cd4c15e5fd7c5789ebfc970da089.png"
-alt="온라인 세미나"
-class="object-cover w-full h-full rounded-full">
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="py-16 bg-white">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-<div class="p-6 bg-white rounded-lg shadow-lg">
-<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-<i class="ri-calendar-line text-primary text-xl"></i>
-</div>
-<h3 class="text-xl font-semibold mb-2">일시</h3>
-<p class="text-gray-600">2025년 4월 5일(토)<br/>오후 7시 ~ 8시</p>
-</div>
-<div class="p-6 bg-white rounded-lg shadow-lg">
-<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-<i class="ri-video-chat-line text-primary text-xl"></i>
-</div>
-<h3 class="text-xl font-semibold mb-2">진행 방식</h3>
-<p class="text-gray-600">Zoom 온라인 미팅<br/>실시간 Q&A 가능</p>
-</div>
-<div class="p-6 bg-white rounded-lg shadow-lg">
-<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-<i class="ri-group-line text-primary text-xl"></i>
-</div>
-<h3 class="text-xl font-semibold mb-2">참가 정원</h3>
-<p class="text-gray-600">50명 선착순<br/>무료 참가</p>
-</div>
-</div>
-</div>
-</section>
-<section class="py-16 bg-gray-50">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<h2 class="text-3xl font-bold text-center mb-12">세미나 주요 내용</h2>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<div class="bg-white p-6 rounded-lg shadow-lg">
-<div class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mb-4">
-<i class="ri-book-open-line text-secondary text-xl"></i>
-</div>
-<h3 class="text-xl font-semibold mb-4">자격시험 소개</h3>
-<p class="text-gray-600">창업보육매니저 자격시험의 전반적인 개요와 준비 방법을 상세히 안내해드립니다.</p>
-</div>
-<div class="bg-white p-6 rounded-lg shadow-lg">
-<div class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mb-4">
-<i class="ri-file-list-3-line text-secondary text-xl"></i>
-</div>
-<h3 class="text-xl font-semibold mb-4">기출문제 분석</h3>
-<p class="text-gray-600">제27차 시험 기출문제를 철저히 분석하여 출제 경향과 핵심 포인트를 파악합니다.</p>
-</div>
-<div class="bg-white p-6 rounded-lg shadow-lg">
-<div class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mb-4">
-<i class="ri-road-map-line text-secondary text-xl"></i>
-</div>
-<h3 class="text-xl font-semibold mb-4">합격 전략</h3>
-<p class="text-gray-600">제28차 시험 대비를 위한 효과적인 학습 방법과 합격 전략을 제시합니다.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="register" class="py-16 bg-white">
-<div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-<h2 class="text-3xl font-bold text-center mb-8">세미나 신청하기</h2>
-<div class="bg-white shadow-lg rounded-lg overflow-hidden">
-<div class="w-full overflow-hidden border border-gray-200 rounded-lg">
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdPMUhTN0d7Txg0KxJyKNSiuA4SnfgyAYrpwaCCI6CpsnXgdg/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">로드 중…</iframe>
-</div>
-</div>
-<p class="text-center text-gray-600 mt-6">
-* 신청 후 확인 메일이 발송됩니다.<br/>
-* 세미나 당일 Zoom 링크는 별도로 안내드립니다.
-</p>
-</div>
-</section>
-</main>
-<footer class="bg-gray-900 text-white py-12">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<div>
-<a href="#" class="mb-4 block"><img src="https://static.readdy.ai/image/125e6ce6350ab7717e70267fb3bb8303/f5f93f987e91f8d9fa04e0e19f912ee3.png" alt="창업보육매니저양성센터 로고" class="h-10 brightness-200"></a>
-<p class="text-gray-400">우리는 제28차 창보매가 된다!</p>
-</div>
-<div class="grid grid-cols-2 gap-8">
-<div>
-<h3 class="text-lg font-semibold mb-4">문의하기</h3>
-<ul class="space-y-2">
-<li>
-<a href="tel:02-1234-5678" class="text-gray-400 hover:text-white">
-<i class="ri-phone-line mr-2"></i>02-1234-5678
-</a>
-</li>
-<li>
-<a href="mailto:info@example.com" class="text-gray-400 hover:text-white">
-<i class="ri-mail-line mr-2"></i>info@example.com
-</a>
-</li>
-</ul>
-</div>
-<div>
-<h3 class="text-lg font-semibold mb-4">SNS</h3>
-<div class="flex space-x-4">
-<a href="#" class="text-gray-400 hover:text-white">
-<i class="ri-kakao-talk-fill text-2xl"></i>
-</a>
-<a href="#" class="text-gray-400 hover:text-white">
-<i class="ri-instagram-line text-2xl"></i>
-</a>
-<a href="#" class="text-gray-400 hover:text-white">
-<i class="ri-youtube-line text-2xl"></i>
-</a>
-</div>
-</div>
-</div>
-</div>
-<div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-<p>&copy; 2025 All rights reserved.</p>
-</div>
-</div>
-</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>제28차 창보매 합격플랜 세미나</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#4338ca",
+              secondary: "#f472b6",
+            },
+            borderRadius: {
+              none: "0px",
+              sm: "4px",
+              DEFAULT: "8px",
+              md: "12px",
+              lg: "16px",
+              xl: "20px",
+              "2xl": "24px",
+              "3xl": "32px",
+              full: "9999px",
+              button: "8px",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      :where([class^="ri-"])::before { content: "\f3c2"; }
+      .gradient-bg {
+      background: linear-gradient(135deg, #4338ca 0%, #312e81 100%);
+      }
+      .neon-border {
+      box-shadow: 0 0 15px rgba(244, 114, 182, 0.5);
+      }
+    </style>
+  </head>
+  <body class="min-h-screen bg-gray-50">
+    <nav class="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex items-center">
+            <a href="#"
+              ><img
+                src="https://static.readdy.ai/image/125e6ce6350ab7717e70267fb3bb8303/f5f93f987e91f8d9fa04e0e19f912ee3.png"
+                alt="창업보육매니저양성센터 로고"
+                class="h-10"
+            /></a>
+          </div>
+          <div class="flex items-center space-x-4">
+            <a
+              href="#"
+              class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium"
+              >홈</a
+            >
+            <a
+              href="#"
+              class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium"
+              >소개</a
+            >
+            <a
+              href="#"
+              class="text-gray-700 hover:text-primary px-3 py-2 text-sm font-medium"
+              >문의하기</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="gradient-bg pt-24 pb-16 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="text-white">
+              <p class="text-secondary font-medium mb-4">
+                창보매 합격을 위한 첫걸음
+              </p>
+              <h1 class="text-4xl sm:text-5xl font-bold mb-6">
+                제28차 창보매<br />합격플랜 세미나
+              </h1>
+              <p class="text-gray-200 mb-8">
+                창업보육매니저 자격시험 준비를 위한 특별한 기회! 전문가와
+                함께하는 1시간으로 합격의 길을 열어보세요.
+              </p>
+              <a
+                href="https://forms.gle/nKgbZ3rPmBBLQdzc6"
+                target="_blank"
+                class="inline-flex items-center px-6 py-3 bg-secondary text-white font-medium !rounded-button hover:bg-opacity-90 transition cursor-pointer"
+              >
+                지금 신청하기
+                <i class="ri-arrow-right-line ml-2"></i>
+              </a>
+            </div>
+            <div class="relative">
+              <div
+                class="aspect-w-4 aspect-h-3 rounded-full neon-border overflow-hidden"
+              >
+                <img
+                  src="https://static.readdy.ai/image/125e6ce6350ab7717e70267fb3bb8303/4fb5cd4c15e5fd7c5789ebfc970da089.png"
+                  alt="온라인 세미나"
+                  class="object-cover w-full h-full rounded-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="p-6 bg-white rounded-lg shadow-lg">
+              <div
+                class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4"
+              >
+                <i class="ri-calendar-line text-primary text-xl"></i>
+              </div>
+              <h3 class="text-xl font-semibold mb-2">일시</h3>
+              <p class="text-gray-600">
+                2025년 4월 5일(토)<br />오후 7시 ~ 8시
+              </p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-lg">
+              <div
+                class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4"
+              >
+                <i class="ri-video-chat-line text-primary text-xl"></i>
+              </div>
+              <h3 class="text-xl font-semibold mb-2">진행 방식</h3>
+              <p class="text-gray-600">Zoom 온라인 미팅<br />실시간 Q&A 가능</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-lg">
+              <div
+                class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4"
+              >
+                <i class="ri-group-line text-primary text-xl"></i>
+              </div>
+              <h3 class="text-xl font-semibold mb-2">참가 정원</h3>
+              <p class="text-gray-600">50명 선착순<br />무료 참가</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-3xl font-bold text-center mb-12">세미나 주요 내용</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+              <div
+                class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mb-4"
+              >
+                <i class="ri-book-open-line text-secondary text-xl"></i>
+              </div>
+              <h3 class="text-xl font-semibold mb-4">자격시험 소개</h3>
+              <p class="text-gray-600">
+                창업보육매니저 자격시험의 전반적인 개요와 준비 방법을 상세히
+                안내해드립니다.
+              </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+              <div
+                class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mb-4"
+              >
+                <i class="ri-file-list-3-line text-secondary text-xl"></i>
+              </div>
+              <h3 class="text-xl font-semibold mb-4">기출문제 분석</h3>
+              <p class="text-gray-600">
+                제27차 시험 기출문제를 철저히 분석하여 출제 경향과 핵심 포인트를
+                파악합니다.
+              </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+              <div
+                class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mb-4"
+              >
+                <i class="ri-road-map-line text-secondary text-xl"></i>
+              </div>
+              <h3 class="text-xl font-semibold mb-4">합격 전략</h3>
+              <p class="text-gray-600">
+                제28차 시험 대비를 위한 효과적인 학습 방법과 합격 전략을
+                제시합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="register" class="py-16 bg-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-3xl font-bold text-center mb-8">세미나 신청하기</h2>
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div
+              class="w-full border border-gray-200 rounded-lg p-4 flex items-center justify-center bg-gray-50"
+            >
+              <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSf-O4dZqswVIF1iKV0TTENt7av2xnAHed_3xhsGYnH2NgeOpg/viewform?embedded=true"
+                width="100%"
+                height="2452"
+                frameborder="0"
+                marginheight="0"
+                marginwidth="0"
+                >로드 중…</iframe
+              >
+            </div>
+          </div>
+          <p class="text-center text-gray-600 mt-6">
+            * 신청 후 확인 메일이 발송됩니다.<br />
+            * 세미나 당일 Zoom 링크는 별도로 안내드립니다.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <a href="#" class="mb-4 block"
+              ><img
+                src="https://static.readdy.ai/image/125e6ce6350ab7717e70267fb3bb8303/f5f93f987e91f8d9fa04e0e19f912ee3.png"
+                alt="창업보육매니저양성센터 로고"
+                class="h-10 brightness-200"
+            /></a>
+            <p class="text-gray-400">우리는 제28차 창보매가 된다!</p>
+          </div>
+          <div class="grid grid-cols-2 gap-8">
+            <div>
+              <h3 class="text-lg font-semibold mb-4">문의하기</h3>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="tel:02-1234-5678"
+                    class="text-gray-400 hover:text-white"
+                  >
+                    <i class="ri-phone-line mr-2"></i>02-1234-5678
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:info@example.com"
+                    class="text-gray-400 hover:text-white"
+                  >
+                    <i class="ri-mail-line mr-2"></i>info@example.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold mb-4">SNS</h3>
+              <div class="flex space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white">
+                  <i class="ri-kakao-talk-fill text-2xl"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white">
+                  <i class="ri-instagram-line text-2xl"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-white">
+                  <i class="ri-youtube-line text-2xl"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400"
+        >
+          <p>&copy; 2025 All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
